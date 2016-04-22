@@ -22,13 +22,14 @@
 }
 .ribbon{
   text-align: center;
+  vertical-align: middle;
+  line-height: 0px;
   position: absolute;
   left:0;
   right:0;
   top:120px;
   margin-left: auto;
   margin-right: auto;
-  
   background-color:#f6515d;
   height:28px;
   width:260px;
