@@ -1,10 +1,10 @@
-/**.container{
+.container{
   margin: 0 auto;
   width:1200px;
   height:702px;
   background-color:#fff0da;
-  z-index: -2;
-}**/
+  z-index: 1;
+}
 @font-face {font-family: "Wisdom Script AI";
     src: url("http://db.onlinewebfonts.com/t/d6ced0df95b7cc53e0eae88817930d08.eot");
     src: url("http://db.onlinewebfonts.com/t/d6ced0df95b7cc53e0eae88817930d08.eot?#iefix") format("embedded-opentype"),
@@ -21,7 +21,7 @@
   text-align: center;
 }
 .ribbon{
-  text-align: center;
+  text-align:center;
   position: absolute;
   left:0;
   right:0;
@@ -33,65 +33,24 @@
   height:28px;
   width:260px;
   color:rgb(255, 240, 218);
-  border: solid #fff0da 2px;
   
+  z-index: 3;
 }
-.the_delightful__smart_way_to_learn {
-  font-size: 16px;
-  font-family: "Baskerville";
-  color: rgb(255, 240, 218);
-  font-weight: bold;
-  font-style: italic;
-  line-height: 1.2;
-  text-align: center;
-  position: absolute;
-  left: 479.138px;
-  top: 111.946px;
-  z-index: 88;
+#ribbon-left{
+ border-left:20px solid transparent;
+ left:-28px;
+}
+#ribbon-right{
+ border-right:20px solid transparent; 
+ right:-28px;
+}
+.ribbon-edges{
+   border-top:15px solid #f6515d;
+   border-bottom:15px solid #f6515d;
+   width:30px; 
+   height:0px; 
+   position: absolute;
+   top:-8px;
+   z-index: 2;
 }
 
-.ribbon:before
-{
-  content: ' ';
-  position:absolute;
-  width: 30px;
-  height: 0;
-  left: -30px;
-  top: -10px;
-  border-width: 20px 10px;
-  border-style: solid;
-  border-color: #f6515d #f6515d #f6515d transparent;
-  z-index: -1;
-}
-.ribbon:after
-{
-  content: ' ';
-  position:absolute;
-  width: 30px;
-  height: 0;
-  right:-30px;
-  top: -10px;
-  border-width: 20px 10px;
-  border-style: solid;
-  border-color: #f6515d transparent #f6515d #f6515d;
-  z-index: -1;
-}
-.centered {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -100px;
-}
-h2:before
-{
-  content: ' ';
-  position: absolute;
-  width: 30px;
-  height: 0;
-  left: -30px;
-  top: 12px;
-  border-width: 20px 10px;
-  border-style: solid;
-  border-color: #999 #999 #999 transparent;
-}
