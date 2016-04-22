@@ -1,10 +1,25 @@
-.container{
+.container-one{
   margin: 0 auto;
   width:1200px;
-  height:702px;
+  height:700px;
   background-color:#fff0da;
   z-index: 1;
 }
+.container-two{
+  margin: 0 auto;
+  width:1200px;
+  height:455px;
+  background-color:#f6515d;
+  z-index: 1;
+}
+.container-three{
+  margin: 0 auto;
+  width:1200px;
+  height:417px;
+  background-color:#333333;
+  z-index: 1;
+}
+
 @font-face {font-family: "Wisdom Script AI";
     src: url("http://db.onlinewebfonts.com/t/d6ced0df95b7cc53e0eae88817930d08.eot");
     src: url("http://db.onlinewebfonts.com/t/d6ced0df95b7cc53e0eae88817930d08.eot?#iefix") format("embedded-opentype"),
@@ -13,6 +28,7 @@
     url("http://db.onlinewebfonts.com/t/d6ced0df95b7cc53e0eae88817930d08.ttf") format("truetype"),
     url("http://db.onlinewebfonts.com/t/d6ced0df95b7cc53e0eae88817930d08.svg#Wisdom Script AI") format("svg");
 }
+@import url(https://fonts.googleapis.com/css?family=Noticia+Text);
 
 .logo{
   font-family:"Wisdom Script AI";
@@ -41,7 +57,6 @@
  border-left:18px solid transparent;
  left:-300px;
   right:0;
-  
 }
 #ribbon-right{
  border-right:18px solid transparent; 
@@ -58,5 +73,41 @@
    z-index: 2;
    margin-left: auto;
    margin-right: auto;
+   display:inline;
+}
+.bar-left{
+  border-bottom:solid red 1px;
+  width:115px;
+  left:375px;
+  top:129px;
+  position:absolute;
+}
+.bar-right{
+  border-bottom:solid red 1px;
+  width:115px;
+  right:375px;
+  top:129px;
+  position:absolute;
+}
+.intro-text{
+  font-size: 26px;
+  font-weight: bold;
+  font-family: 'Noticia Text';
+  color: rgb(246, 81, 93);
+  line-height: 1.885;
+  text-align: center;
+  text-shadow: 0.5px 0.866px 0px rgba(255, 246, 232, 0.004);
+  position: relative;
+  margin:auto;
+  width: 871px;
+  height: 76px;
+  z-index: 82;
+  padding:30px;
 }
 
+footer{
+  background-color:#f6515d;
+  width:1200px;
+  height:35px;
+  margin:0 auto;
+}
