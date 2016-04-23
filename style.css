@@ -229,6 +229,7 @@ position: absolute;
   position: absolute;
   width: 287px;
   height: 58px;
+  top:250px;
   
 }
 
@@ -293,5 +294,6 @@ footer{
   text-align: center;
   vertical-align: middle;
   line-height: 0px;
+  position: absolute;
 
 }
