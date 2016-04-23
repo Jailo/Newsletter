@@ -3,21 +3,21 @@
   width:1200px;
   height:700px;
   background-color:#fff0da;
-  z-index: 1;
+ 
 }
 .container-two{
   margin: 0 auto;
   width:1200px;
   height:455px;
   background-color:#f6515d;
-  z-index: 1;
+ 
 }
 .container-three{
   margin: 0 auto;
   width:1200px;
   height:417px;
   background-color:#333333;
-  z-index: 1;
+  
 }
 
 @font-face {font-family: "Wisdom Script AI";
@@ -41,11 +41,7 @@
   vertical-align: middle;
   line-height: 0px;
   position: absolute;
-  left:0;
-  right:0;
   top:120px;
-  margin-left: auto;
-  margin-right: auto;
   background-color:#f6515d;
   height:28px;
   width:260px;
@@ -99,15 +95,202 @@
   text-shadow: 0.5px 0.866px 0px rgba(255, 246, 232, 0.004);
   position: relative;
   margin:auto;
-  width: 871px;
-  height: 76px;
-  z-index: 82;
+  width: 850px;
+  height: 79px;
   padding:30px;
 }
+.signup{
+  background-color:#fffffe;
+  width:870px;
+  height:347px;
+  position: absolute;
+  left:0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
+  bottom:-72px;
+  z-index: 3;
+  border-top: 15px solid transparent;
+  -webkit-border-image: url('http://s31.postimg.org/v51gbrwgb/curvy_border.jpg') 30 30 stretch;
+  -webkit-o-image: url('http://s31.postimg.org/v51gbrwgb/curvy_border.jpg') 30 30 stretch;
+  border-image: url('http://s31.postimg.org/v51gbrwgb/curvy_border.jpg') 30 30 stretch;
+ }
+.signup-wisdom-text{
+  
+  width:inherit; 
+  height:110px;
+  font-family: 'Wisdom Script AI';
+  font-size:25px;
+  text-align: center;
+}
+.signup-red-text{
+  color:#f6515d;
+  font-size:30px;
+  font-weight: bold;
+  font-family: Helvetica;
+}
+.border{
+  border-top:#e6cda7 dotted; 
+  border-bottom:#ede6da solid;
+  height:2px;
+}
+/** Hidden For now
+.page-flap-left{
+  padding-bottom: 40px;
+  background-color:#fffffe;
+  width:40px;
+  height:180px;
+  position: absolute;
+  left:-25px;
+  bottom:0;
+  -ms-transform: rotate(-7deg); /* IE 9 */
+/** -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+/** transform: rotate(-7deg);
+  z-index: 2;
+  border-top: 15px solid transparent;
+  -webkit-border-image: url('http://s31.postimg.org/v51gbrwgb/curvy_border.jpg') 30 30 stretch;
+  -webkit-o-image: url('http://s31.postimg.org/v51gbrwgb/curvy_border.jpg') 30 30 stretch;
+  border-image: url('http://s31.postimg.org/v51gbrwgb/curvy_border.jpg') 30 30 stretch;
+ } **/
+
+.page-padding{
+  padding:40px;
+}
+
+#email{
+  width:494px;
+  height: 53px;
+  border-radius:20px 0px 0px 20px;
+  margin:50px 0 50px 50px;
+}
+#email-btn{
+  background-color: #f6515d;
+  color:#ffffff;
+  width:233px;
+  height:59px;
+  border-radius:0px 20px 20px 0px;
+  font-size: 27px;
+  right:90px;
+  bottom:104px;
+  font-family: Helvetica;
+  font-weight: bold;
+  position: absolute;
+  display:inline;
+}
+.centered{
+position: absolute;
+  left:0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blog-header{
+  font-family: 'Wisdom Script AI';
+  font-size:28px;
+  color: rgb(51, 51, 51);
+  display:table;
+  text-align: center;
+  width:inherit;
+  padding:25px 0px 25px 0px;
+  text-shadow: 0px 5px 0px rgba(246, 81, 93, 0.004);
+  position:absolute;
+}
+.column{
+  padding:125px 40px 25px 40px;
+  width:310px;
+  height:220px;
+  float:left;
+  clear:all;
+  display:block;
+  text-align: left;
+}
+.column > h4{
+  font-size: 20px;
+  font-family: "NoticiaText";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 1.45 0 0 0;
+
+}
+.column > hr{
+   display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px dotted #944248;
+    margin:  0;
+    padding: 0; 
+}
+.blog-content{
+  font-size: 14px;
+  font-family: Helvetica;
+  color: rgb(51, 51, 51);
+  line-height: 1.571;
+  position: absolute;
+  width: 287px;
+  height: 58px;
+  top: 990.15px;
+}
+
+.date-and-author{
+  font-size: 12px;
+  font-family: Helvetica;
+  color: rgb(51, 51, 51);
+  padding-bottom: 30px;
+    position: absolute;
+  margin-bottom:20px;
+  line-height-bottom: 1.833;
+  position: absolute;
+}
+a{
+  color:#fbe4d0;
+  text-decoration: none;
+  font-style:oblique;
+}
+.about-skillcrush{
+  width:474px;
+  height:240px;
+  position: absolute;
+  padding:60px;
+}
+.about-skillcrush-text{
+  font-size: 14px;
+  font-family: Georgia;
+  color: rgb(255, 240, 218);
+  line-height: 1.571;
+  text-align: left;
+  width: inherit;
+  height: inherit;
+}
+
+
+.container-3-headers{
+  font-size: 28px;
+  font-family: "Wisdom Script AI";
+  color: rgb(255, 240, 218);
+  line-height: 1.036;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(51, 51, 51, 0.004);
+}
+.form{
+  float:right;
+  display:inline;
+  clear:left;
+  padding:60px;
+  text-align: left;
+  width:474px;
+  height:305px;
+
+}
+
+
 
 footer{
   background-color:#f6515d;
   width:1200px;
   height:35px;
   margin:0 auto;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 0px;
+
 }
