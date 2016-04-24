@@ -3,6 +3,10 @@
   width:1200px;
   height:700px;
   background-color:#fff0da;
+  
+background: radial-gradient(circle, #faebd6 10%, transparent 10%),
+  radial-gradient(circle, #faebd6 10%, #fff0da 10%) 50px 50px;
+background-size:90px 100px;
 }
 .container-two{
   margin: 0 auto;
@@ -18,6 +22,7 @@
   height:417px;
   background-color:#333333;
   position: relative; 
+  padding-bottom: 20px;
 }
 
 @font-face {font-family: "Wisdom Script AI";
@@ -174,7 +179,7 @@
   padding:40px;
 }
 
-#email{
+#mail{
   width:494px;
   height: 53px;
   border-radius:20px 0px 0px 20px;
@@ -209,7 +214,7 @@ position: absolute;
   text-align: center;
   width:inherit;
   padding:25px 0px 25px 0px;
-  text-shadow: 0px 5px 0px rgba(246, 81, 93, 0.004);
+  text-shadow: 1px 2px 1px #883e43;
   position:absolute;
 }
 .column{
@@ -227,7 +232,6 @@ position: absolute;
   color: rgb(51, 51, 51);
   font-weight: bold;
   line-height: 1.45 0 0 0;
-
 }
 .column > hr{
    display: block;
@@ -265,10 +269,10 @@ a{
   font-style:oblique;
 }
 .about-skillcrush{
-  width:474px;
-  height:240px;
+  width:450px;
+  height:350px;
   position: absolute;
-  padding:60px;
+  padding:30px 5px 50px 100px;
 }
 .about-skillcrush-text{
   font-size: 14px;
@@ -279,24 +283,55 @@ a{
   width: inherit;
   height: inherit;
 }
-
-
 .container-3-headers{
   font-size: 28px;
   font-family: "Wisdom Script AI";
-  color: rgb(255, 240, 218);
+  color:#fff0da;
   line-height: 1.036;
   text-align: left;
-  text-shadow: 0px 1px 0px rgba(51, 51, 51, 0.004);
+  text-shadow: 2px 3px #54504a;
+  
 }
 .form-div{
   float:right;
   display:inline;
   clear:left;
-  padding:60px;
+  padding:30px 100px 50px 80px;
   text-align: left;
-  width:474px;
-  height:305px;
+  width:450px;
+  height:350px;
+}
+#name, #email{
+  width:220px;
+  height:30px;
+  float:left;
+  display:inline;
+  position: relative;
+}
+#subject{
+  height:30px;
+  width:448px;
+}
+#name, #email, #subject, #msg{
+   
+  background-color: #fff0da;
+  border-radius: 5px;
+  margin:3px 0px 3px 1px;
+}
+#msg{
+  width:447px;
+  height:115px;
+}
+#msg-btn{
+  width:145px;
+  height:30px;
+  float:right;
+  background-color: #dcc199;
+  color:#333333;
+  font-size: 14px;
+  font-family:Helvetica;
+  font-weight: bold;
+  border:none;
 }
 footer{
   background-color:#f6515d;
@@ -310,6 +345,6 @@ footer{
   text-align: center;
   position: inherit;
   float:left;
-  bottom: 20px;
+  bottom: -5px;
   z-index: 7;
 }
