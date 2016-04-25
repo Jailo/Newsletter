@@ -3,10 +3,11 @@
   width:1200px;
   height:700px;
   background-color:#fff0da;
-  position:relative;
-  background: radial-gradient(circle, #faebd6 10%, transparent 10%),
+
+background: radial-gradient(circle, #faebd6 10%, transparent 10%),
   radial-gradient(circle, #faebd6 10%, #fff0da 10%) 50px 50px;
-  background-size:90px 100px;
+background-size:90px 100px;
+position: relative;
 }
 .container-two{
   margin: 0 auto;
@@ -33,15 +34,15 @@
     url("http://db.onlinewebfonts.com/t/d6ced0df95b7cc53e0eae88817930d08.ttf") format("truetype"),
     url("http://db.onlinewebfonts.com/t/d6ced0df95b7cc53e0eae88817930d08.svg#Wisdom Script AI") format("svg");
 }
-@import url(https://fonts.googleapis.com/css?family=Noticia+Text);
-
 .logo{
   font-family:"Wisdom Script AI";
   color:#f6515d;
-  font-size:58px;
+  font-size:60px;
   text-align: center;
+  padding-top:25px;
 }
 .ribbon{
+  font-size:16px;
   text-align: center;
   vertical-align: middle;
   line-height: 0px;
@@ -79,20 +80,20 @@
 .bar-left{
   border-bottom:solid red 1px;
   width:115px;
-  left:375px;
+  left:300px;
   top:129px;
   position:absolute;
 }
 .bar-right{
   border-bottom:solid red 1px;
   width:115px;
-  right:375px;
+  right:300px;
   top:129px;
   position:absolute;
 }
 .intro-text{
   font-size: 26px;
-  font-weight: bold;
+  font-weight:bold;
   font-family: 'Noticia Text';
   color: rgb(246, 81, 93);
   line-height: 1.885;
@@ -113,7 +114,7 @@
   right:0;
   margin-left: auto;
   margin-right: auto;
-  bottom:-72px;
+  bottom:-5px;
   z-index: 11;
   border-top: 15px solid transparent;
   box-shadow: 0 15px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -122,7 +123,6 @@
   border-image: url('http://s31.postimg.org/v51gbrwgb/curvy_border.jpg') 30 30 stretch;
  }
 .signup-wisdom-text{
-  
   width:inherit; 
   height:110px;
   font-family: 'Wisdom Script AI';
@@ -144,11 +144,11 @@
 .page-flap-left{
   padding-bottom: 40px;
   background-color:#fffffe;
-  width:600px;
+  width:580px;
   height:200px;
   position: absolute;
-  left:200px;
-  bottom:-76px;
+  left:110px;
+  bottom:-2px;
   -ms-transform: rotate(-7deg); /* IE 9 */
   -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
   transform: rotate(-7deg);
@@ -157,15 +157,16 @@
   -webkit-border-image: url('http://s31.postimg.org/v51gbrwgb/curvy_border.jpg') 30 30 stretch;
   -webkit-o-image: url('http://s31.postimg.org/v51gbrwgb/curvy_border.jpg') 30 30 stretch;
   border-image: url('http://s31.postimg.org/v51gbrwgb/curvy_border.jpg') 30 30 stretch;
- } 
+  box-shadow: 0 15px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  } 
 .page-flap-right{
   padding-bottom: 40px;
   background-color:#fffffe;
-  width:600px;
-  height:250px;
+  width:580px;
+  height:265px;
   position: absolute;
-  right:200px;
-  bottom:-76px;
+  right:110px;
+  bottom:0px;
   -ms-transform: rotate(7deg); /* IE 9 */
   -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
   transform: rotate(7deg);
@@ -174,6 +175,7 @@
   -webkit-border-image: url('http://s31.postimg.org/v51gbrwgb/curvy_border.jpg') 30 30 stretch;
   -webkit-o-image: url('http://s31.postimg.org/v51gbrwgb/curvy_border.jpg') 30 30 stretch;
   border-image: url('http://s31.postimg.org/v51gbrwgb/curvy_border.jpg') 30 30 stretch;
+  box-shadow: 0 15px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  } 
 .page-padding{
   padding:40px;
@@ -184,7 +186,6 @@
   height: 53px;
   border-radius:20px 0px 0px 20px;
   margin:50px 0 50px 50px;
-  background-color:#fefcf2;
 }
 #email-btn{
   background-color: #f6515d;
@@ -278,7 +279,7 @@ a{
 .about-skillcrush-text{
   font-size: 14px;
   font-family: Georgia;
-  color: rgb(255, 240, 218);
+  color: #fff0da;
   line-height: 1.571;
   text-align: left;
   width: inherit;
